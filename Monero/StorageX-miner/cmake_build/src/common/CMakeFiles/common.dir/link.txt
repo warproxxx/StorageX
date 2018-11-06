@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommon.a  CMakeFiles/obj_common.dir/base58.cpp.o
+/usr/bin/ranlib libcommon.a

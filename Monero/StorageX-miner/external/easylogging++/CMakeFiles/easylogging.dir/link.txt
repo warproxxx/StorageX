@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -std=c++11 -g3 -gdwarf-2  -shared -Wl,-soname,libeasylogging.so -o libeasylogging.so CMakeFiles/easylogging.dir/easylogging++.cc.o -pthread 

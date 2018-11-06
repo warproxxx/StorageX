@@ -1,0 +1,571 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56d37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56d37.dir/build.make CMakeFiles/cmTC_56d37.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56d37.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_56d37.dir/CheckSymbolExists.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_56d37
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56d37.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_56d37.dir/CheckSymbolExists.c.o  -o cmTC_56d37 
+CMakeFiles/cmTC_56d37.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_56d37.dir/build.make:86: recipe for target 'cmTC_56d37' failed
+make[1]: *** [cmTC_56d37] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_56d37/fast' failed
+make: *** [cmTC_56d37/fast] Error 2
+
+File /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function memset_s exists in the c failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7edc7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7edc7.dir/build.make CMakeFiles/cmTC_7edc7.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7edc7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset_s   -o CMakeFiles/cmTC_7edc7.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7edc7
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7edc7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memset_s    -rdynamic CMakeFiles/cmTC_7edc7.dir/CheckFunctionExists.c.o  -o cmTC_7edc7  -L/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/string.h -Wl,-rpath,/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/string.h -lc 
+CMakeFiles/cmTC_7edc7.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `memset_s'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7edc7.dir/build.make:86: recipe for target 'cmTC_7edc7' failed
+make[1]: *** [cmTC_7edc7] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7edc7/fast' failed
+make: *** [cmTC_7edc7/fast] Error 2
+
+
+Determining if the function explicit_bzero exists in the c failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34a63/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34a63.dir/build.make CMakeFiles/cmTC_34a63.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34a63.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=explicit_bzero   -o CMakeFiles/cmTC_34a63.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34a63
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34a63.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=explicit_bzero    -rdynamic CMakeFiles/cmTC_34a63.dir/CheckFunctionExists.c.o  -o cmTC_34a63  -L/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/strings.h -Wl,-rpath,/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/strings.h -lc 
+CMakeFiles/cmTC_34a63.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `explicit_bzero'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_34a63.dir/build.make:86: recipe for target 'cmTC_34a63' failed
+make[1]: *** [cmTC_34a63] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_34a63/fast' failed
+make: *** [cmTC_34a63/fast] Error 2
+
+
+Determining if the include file event.h exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c81c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c81c5.dir/build.make CMakeFiles/cmTC_c81c5.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c81c5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c81c5.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: fatal error: event.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_c81c5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c81c5.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c81c5.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c81c5/fast' failed
+make: *** [cmTC_c81c5/fast] Error 2
+
+
+Determining if the include file iphlpapi.h exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0514b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0514b.dir/build.make CMakeFiles/cmTC_0514b.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0514b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0514b.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: iphlpapi.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_0514b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0514b.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0514b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_0514b/fast' failed
+make: *** [cmTC_0514b/fast] Error 2
+
+
+Determining if the include file login_cap.h exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d90f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d90f.dir/build.make CMakeFiles/cmTC_1d90f.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d90f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1d90f.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: fatal error: login_cap.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_1d90f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1d90f.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1d90f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_1d90f/fast' failed
+make: *** [cmTC_1d90f/fast] Error 2
+
+
+Determining if the include file sys/sha2.h exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e0b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e0b9.dir/build.make CMakeFiles/cmTC_8e0b9.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e0b9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8e0b9.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: sys/sha2.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_8e0b9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8e0b9.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8e0b9.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_8e0b9/fast' failed
+make: *** [cmTC_8e0b9/fast] Error 2
+
+
+Determining if the include file vfork.h exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44566/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44566.dir/build.make CMakeFiles/cmTC_44566.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44566.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_44566.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: fatal error: vfork.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_44566.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_44566.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_44566.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_44566/fast' failed
+make: *** [cmTC_44566/fast] Error 2
+
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0e3e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0e3e.dir/build.make CMakeFiles/cmTC_d0e3e.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0e3e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d0e3e.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: windows.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_d0e3e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d0e3e.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d0e3e.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_d0e3e/fast' failed
+make: *** [cmTC_d0e3e/fast] Error 2
+
+
+Determining if the include file winsock2.h exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eebb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eebb3.dir/build.make CMakeFiles/cmTC_eebb3.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eebb3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eebb3.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: winsock2.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_eebb3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_eebb3.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_eebb3.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_eebb3/fast' failed
+make: *** [cmTC_eebb3/fast] Error 2
+
+
+Determining if the include file ws2tcpip.h exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_931a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_931a7.dir/build.make CMakeFiles/cmTC_931a7.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_931a7.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_931a7.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: ws2tcpip.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_931a7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_931a7.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_931a7.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_931a7/fast' failed
+make: *** [cmTC_931a7/fast] Error 2
+
+
+Determining if the function _beginthreadex exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de685/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de685.dir/build.make CMakeFiles/cmTC_de685.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de685.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_beginthreadex   -o CMakeFiles/cmTC_de685.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_de685
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de685.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_beginthreadex    -rdynamic CMakeFiles/cmTC_de685.dir/CheckFunctionExists.c.o  -o cmTC_de685 
+CMakeFiles/cmTC_de685.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_beginthreadex'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_de685.dir/build.make:86: recipe for target 'cmTC_de685' failed
+make[1]: *** [cmTC_de685] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_de685/fast' failed
+make: *** [cmTC_de685/fast] Error 2
+
+
+Determining if the function arc4random exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4662a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4662a.dir/build.make CMakeFiles/cmTC_4662a.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4662a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=arc4random   -o CMakeFiles/cmTC_4662a.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4662a
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4662a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=arc4random    -rdynamic CMakeFiles/cmTC_4662a.dir/CheckFunctionExists.c.o  -o cmTC_4662a 
+CMakeFiles/cmTC_4662a.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `arc4random'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4662a.dir/build.make:86: recipe for target 'cmTC_4662a' failed
+make[1]: *** [cmTC_4662a] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4662a/fast' failed
+make: *** [cmTC_4662a/fast] Error 2
+
+
+Determining if the function arc4random_uniform exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43691/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43691.dir/build.make CMakeFiles/cmTC_43691.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43691.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=arc4random_uniform   -o CMakeFiles/cmTC_43691.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_43691
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43691.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=arc4random_uniform    -rdynamic CMakeFiles/cmTC_43691.dir/CheckFunctionExists.c.o  -o cmTC_43691 
+CMakeFiles/cmTC_43691.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `arc4random_uniform'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_43691.dir/build.make:86: recipe for target 'cmTC_43691' failed
+make[1]: *** [cmTC_43691] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_43691/fast' failed
+make: *** [cmTC_43691/fast] Error 2
+
+
+Determining if the function getentropy exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2bf9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2bf9c.dir/build.make CMakeFiles/cmTC_2bf9c.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2bf9c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getentropy   -o CMakeFiles/cmTC_2bf9c.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2bf9c
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bf9c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getentropy    -rdynamic CMakeFiles/cmTC_2bf9c.dir/CheckFunctionExists.c.o  -o cmTC_2bf9c 
+CMakeFiles/cmTC_2bf9c.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `getentropy'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2bf9c.dir/build.make:86: recipe for target 'cmTC_2bf9c' failed
+make[1]: *** [cmTC_2bf9c] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_2bf9c/fast' failed
+make: *** [cmTC_2bf9c/fast] Error 2
+
+
+Determining if the function ioctlsocket exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a34f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a34f.dir/build.make CMakeFiles/cmTC_2a34f.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a34f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ioctlsocket   -o CMakeFiles/cmTC_2a34f.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2a34f
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a34f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ioctlsocket    -rdynamic CMakeFiles/cmTC_2a34f.dir/CheckFunctionExists.c.o  -o cmTC_2a34f 
+CMakeFiles/cmTC_2a34f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `ioctlsocket'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2a34f.dir/build.make:86: recipe for target 'cmTC_2a34f' failed
+make[1]: *** [cmTC_2a34f] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_2a34f/fast' failed
+make: *** [cmTC_2a34f/fast] Error 2
+
+
+Determining if the function reallocarray exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b69bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b69bc.dir/build.make CMakeFiles/cmTC_b69bc.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b69bc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=reallocarray   -o CMakeFiles/cmTC_b69bc.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b69bc
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b69bc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=reallocarray    -rdynamic CMakeFiles/cmTC_b69bc.dir/CheckFunctionExists.c.o  -o cmTC_b69bc 
+CMakeFiles/cmTC_b69bc.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `reallocarray'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b69bc.dir/build.make:86: recipe for target 'cmTC_b69bc' failed
+make[1]: *** [cmTC_b69bc] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_b69bc/fast' failed
+make: *** [cmTC_b69bc/fast] Error 2
+
+
+Determining if the function setusercontent exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc5fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc5fd.dir/build.make CMakeFiles/cmTC_dc5fd.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc5fd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setusercontent   -o CMakeFiles/cmTC_dc5fd.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc5fd
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc5fd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setusercontent    -rdynamic CMakeFiles/cmTC_dc5fd.dir/CheckFunctionExists.c.o  -o cmTC_dc5fd 
+CMakeFiles/cmTC_dc5fd.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `setusercontent'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dc5fd.dir/build.make:86: recipe for target 'cmTC_dc5fd' failed
+make[1]: *** [cmTC_dc5fd] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_dc5fd/fast' failed
+make: *** [cmTC_dc5fd/fast] Error 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26d9d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26d9d.dir/build.make CMakeFiles/cmTC_26d9d.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26d9d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_26d9d.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26d9d
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26d9d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcat    -rdynamic CMakeFiles/cmTC_26d9d.dir/CheckFunctionExists.c.o  -o cmTC_26d9d 
+CMakeFiles/cmTC_26d9d.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_26d9d.dir/build.make:86: recipe for target 'cmTC_26d9d' failed
+make[1]: *** [cmTC_26d9d] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_26d9d/fast' failed
+make: *** [cmTC_26d9d/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5390a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5390a.dir/build.make CMakeFiles/cmTC_5390a.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5390a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_5390a.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5390a
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5390a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcpy    -rdynamic CMakeFiles/cmTC_5390a.dir/CheckFunctionExists.c.o  -o cmTC_5390a 
+CMakeFiles/cmTC_5390a.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5390a.dir/build.make:86: recipe for target 'cmTC_5390a' failed
+make[1]: *** [cmTC_5390a] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_5390a/fast' failed
+make: *** [cmTC_5390a/fast] Error 2
+
+
+Determining if the PTHREAD_PRIO_INHERIT exist failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d061/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d061.dir/build.make CMakeFiles/cmTC_2d061.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d061.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2d061.dir/CheckSymbolExists.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:18: error: lvalue required as unary ‘&’ operand
+   return ((int*)(&PTHREAD_PRIO_INHERIT))[argc];
+                  ^
+CMakeFiles/cmTC_2d061.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2d061.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2d061.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_2d061/fast' failed
+make: *** [cmTC_2d061/fast] Error 2
+
+File /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PTHREAD_PRIO_INHERIT
+  return ((int*)(&PTHREAD_PRIO_INHERIT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_rwlock_t exist failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ed31/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ed31.dir/build.make CMakeFiles/cmTC_4ed31.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ed31.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4ed31.dir/CheckSymbolExists.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: expected expression before ‘pthread_rwlock_t’
+   return ((int*)(&pthread_rwlock_t))[argc];
+                   ^
+CMakeFiles/cmTC_4ed31.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4ed31.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4ed31.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4ed31/fast' failed
+make: *** [cmTC_4ed31/fast] Error 2
+
+File /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_rwlock_t
+  return ((int*)(&pthread_rwlock_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_spinlock_t exist failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf722/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf722.dir/build.make CMakeFiles/cmTC_bf722.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf722.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bf722.dir/CheckSymbolExists.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: expected expression before ‘pthread_spinlock_t’
+   return ((int*)(&pthread_spinlock_t))[argc];
+                   ^
+CMakeFiles/cmTC_bf722.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bf722.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_bf722.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_bf722/fast' failed
+make: *** [cmTC_bf722/fast] Error 2
+
+File /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_spinlock_t
+  return ((int*)(&pthread_spinlock_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function EVP_MD_CTX_new exists failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7daec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7daec.dir/build.make CMakeFiles/cmTC_7daec.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7daec.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=EVP_MD_CTX_new   -o CMakeFiles/cmTC_7daec.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7daec
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7daec.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=EVP_MD_CTX_new    -rdynamic CMakeFiles/cmTC_7daec.dir/CheckFunctionExists.c.o  -o cmTC_7daec /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+CMakeFiles/cmTC_7daec.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `EVP_MD_CTX_new'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7daec.dir/build.make:88: recipe for target 'cmTC_7daec' failed
+make[1]: *** [cmTC_7daec] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7daec/fast' failed
+make: *** [cmTC_7daec/fast] Error 2
+
+
+Determining if the LIBRESSL_VERSION_TEXT exist failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ae7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ae7c.dir/build.make CMakeFiles/cmTC_5ae7c.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ae7c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5ae7c.dir/CheckSymbolExists.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘LIBRESSL_VERSION_TEXT’ undeclared (first use in this function)
+   return ((int*)(&LIBRESSL_VERSION_TEXT))[argc];
+                   ^
+/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_5ae7c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5ae7c.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5ae7c.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_5ae7c/fast' failed
+make: *** [cmTC_5ae7c/fast] Error 2
+
+File /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <openssl/opensslv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef LIBRESSL_VERSION_TEXT
+  return ((int*)(&LIBRESSL_VERSION_TEXT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the -Wl,-z,noexecheap linker flag is suppored failed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30bb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30bb7.dir/build.make CMakeFiles/cmTC_30bb7.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30bb7.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,-z,noexecheap    -Wl,-z,noexecheap -o CMakeFiles/cmTC_30bb7.dir/CheckLinkerFlag.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_30bb7
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30bb7.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,-z,noexecheap     -rdynamic CMakeFiles/cmTC_30bb7.dir/CheckLinkerFlag.c.o  -o cmTC_30bb7 
+/usr/bin/ld: warning: -z noexecheap ignored.
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,2486 @@
+The system is: Linux - 4.15.0-38-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/3.12.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/3.12.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6362d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6362d.dir/build.make CMakeFiles/cmTC_6362d.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6362d.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6362d.dir/testCCompiler.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6362d
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6362d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6362d.dir/testCCompiler.c.o  -o cmTC_6362d 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf5ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf5ab.dir/build.make CMakeFiles/cmTC_cf5ab.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf5ab.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cf5ab.dir/CMakeCCompilerABI.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_cf5ab
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf5ab.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_cf5ab.dir/CMakeCCompilerABI.c.o  -o cmTC_cf5ab 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf5ab' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cctoFfAT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cf5ab /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_cf5ab.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cf5ab/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cf5ab.dir/build.make CMakeFiles/cmTC_cf5ab.dir/build]
+  ignore line: [make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cf5ab.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_cf5ab.dir/CMakeCCompilerABI.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_cf5ab]
+  ignore line: [/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf5ab.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_cf5ab.dir/CMakeCCompilerABI.c.o  -o cmTC_cf5ab ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf5ab' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cctoFfAT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cf5ab /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_cf5ab.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctoFfAT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cf5ab] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_cf5ab.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15bfd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15bfd.dir/build.make CMakeFiles/cmTC_15bfd.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15bfd.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_15bfd.dir/feature_tests.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/feature_tests.c
+Linking C executable cmTC_15bfd
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15bfd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_15bfd.dir/feature_tests.c.o  -o cmTC_15bfd 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4adb1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4adb1.dir/build.make CMakeFiles/cmTC_4adb1.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4adb1.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_4adb1.dir/feature_tests.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4adb1
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4adb1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4adb1.dir/feature_tests.c.o  -o cmTC_4adb1 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78bee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78bee.dir/build.make CMakeFiles/cmTC_78bee.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78bee.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_78bee.dir/feature_tests.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/feature_tests.c
+Linking C executable cmTC_78bee
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78bee.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_78bee.dir/feature_tests.c.o  -o cmTC_78bee 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49f08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49f08.dir/build.make CMakeFiles/cmTC_49f08.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49f08.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_49f08.dir/testCXXCompiler.cxx.o -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_49f08
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49f08.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_49f08.dir/testCXXCompiler.cxx.o  -o cmTC_49f08 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a43b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a43b.dir/build.make CMakeFiles/cmTC_5a43b.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a43b.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_5a43b.dir/CMakeCXXCompilerABI.cpp.o -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5a43b
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a43b.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_5a43b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5a43b 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5a43b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqZK9ii.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5a43b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5a43b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5a43b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5a43b.dir/build.make CMakeFiles/cmTC_5a43b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5a43b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_5a43b.dir/CMakeCXXCompilerABI.cpp.o -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_5a43b]
+  ignore line: [/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a43b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_5a43b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5a43b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5a43b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqZK9ii.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5a43b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5a43b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqZK9ii.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5a43b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_5a43b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78e23/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78e23.dir/build.make CMakeFiles/cmTC_78e23.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_78e23.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_78e23.dir/feature_tests.cxx.o -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_78e23
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78e23.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_78e23.dir/feature_tests.cxx.o  -o cmTC_78e23 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2ebf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2ebf.dir/build.make CMakeFiles/cmTC_b2ebf.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2ebf.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_b2ebf.dir/feature_tests.cxx.o -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b2ebf
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2ebf.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b2ebf.dir/feature_tests.cxx.o  -o cmTC_b2ebf 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31e1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_31e1b.dir/build.make CMakeFiles/cmTC_31e1b.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_31e1b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_31e1b.dir/feature_tests.cxx.o -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_31e1b
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31e1b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_31e1b.dir/feature_tests.cxx.o  -o cmTC_31e1b 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96d65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96d65.dir/build.make CMakeFiles/cmTC_96d65.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96d65.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_96d65.dir/feature_tests.cxx.o -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_96d65
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96d65.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_96d65.dir/feature_tests.cxx.o  -o cmTC_96d65 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38b96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38b96.dir/build.make CMakeFiles/cmTC_38b96.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38b96.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_38b96.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_38b96
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38b96.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_38b96.dir/CheckIncludeFile.c.o  -o cmTC_38b96 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strptime exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65ab3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65ab3.dir/build.make CMakeFiles/cmTC_65ab3.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65ab3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strptime   -o CMakeFiles/cmTC_65ab3.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_65ab3
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65ab3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strptime    -rdynamic CMakeFiles/cmTC_65ab3.dir/CheckFunctionExists.c.o  -o cmTC_65ab3 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eeefe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eeefe.dir/build.make CMakeFiles/cmTC_eeefe.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eeefe.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eeefe.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eeefe
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeefe.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eeefe.dir/CheckIncludeFile.c.o  -o cmTC_eeefe 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file endian.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8988f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8988f.dir/build.make CMakeFiles/cmTC_8988f.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8988f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8988f.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8988f
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8988f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8988f.dir/CheckIncludeFile.c.o  -o cmTC_8988f 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81df3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81df3.dir/build.make CMakeFiles/cmTC_81df3.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81df3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_81df3.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_81df3
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81df3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_81df3.dir/CheckIncludeFile.c.o  -o cmTC_81df3 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file getopt.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ffb4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ffb4.dir/build.make CMakeFiles/cmTC_0ffb4.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ffb4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0ffb4.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0ffb4
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ffb4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0ffb4.dir/CheckIncludeFile.c.o  -o cmTC_0ffb4 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e03b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e03b8.dir/build.make CMakeFiles/cmTC_e03b8.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e03b8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e03b8.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e03b8
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e03b8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e03b8.dir/CheckIncludeFile.c.o  -o cmTC_e03b8 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file grp.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df5e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df5e9.dir/build.make CMakeFiles/cmTC_df5e9.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df5e9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_df5e9.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_df5e9
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df5e9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_df5e9.dir/CheckIncludeFile.c.o  -o cmTC_df5e9 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40a08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40a08.dir/build.make CMakeFiles/cmTC_40a08.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40a08.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_40a08.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_40a08
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40a08.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_40a08.dir/CheckIncludeFile.c.o  -o cmTC_40a08 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc084/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc084.dir/build.make CMakeFiles/cmTC_cc084.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc084.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cc084.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cc084
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc084.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cc084.dir/CheckIncludeFile.c.o  -o cmTC_cc084 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netdb.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_364e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_364e5.dir/build.make CMakeFiles/cmTC_364e5.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_364e5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_364e5.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_364e5
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_364e5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_364e5.dir/CheckIncludeFile.c.o  -o cmTC_364e5 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8fed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8fed.dir/build.make CMakeFiles/cmTC_c8fed.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8fed.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c8fed.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c8fed
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8fed.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c8fed.dir/CheckIncludeFile.c.o  -o cmTC_c8fed 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b5c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b5c9.dir/build.make CMakeFiles/cmTC_3b5c9.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b5c9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3b5c9.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3b5c9
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b5c9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3b5c9.dir/CheckIncludeFile.c.o  -o cmTC_3b5c9 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07e07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07e07.dir/build.make CMakeFiles/cmTC_07e07.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07e07.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_07e07.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_07e07
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07e07.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_07e07.dir/CheckIncludeFile.c.o  -o cmTC_07e07 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30cbd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30cbd.dir/build.make CMakeFiles/cmTC_30cbd.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30cbd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_30cbd.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_30cbd
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30cbd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_30cbd.dir/CheckIncludeFile.c.o  -o cmTC_30cbd 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f719e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f719e.dir/build.make CMakeFiles/cmTC_f719e.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f719e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f719e.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f719e
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f719e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f719e.dir/CheckIncludeFile.c.o  -o cmTC_f719e 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b28c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b28c0.dir/build.make CMakeFiles/cmTC_b28c0.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b28c0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b28c0.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b28c0
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b28c0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b28c0.dir/CheckIncludeFile.c.o  -o cmTC_b28c0 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8023/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8023.dir/build.make CMakeFiles/cmTC_e8023.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8023.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e8023.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e8023
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8023.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e8023.dir/CheckIncludeFile.c.o  -o cmTC_e8023 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b673d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b673d.dir/build.make CMakeFiles/cmTC_b673d.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b673d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b673d.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b673d
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b673d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b673d.dir/CheckIncludeFile.c.o  -o cmTC_b673d 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b93ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b93ec.dir/build.make CMakeFiles/cmTC_b93ec.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b93ec.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b93ec.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b93ec
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b93ec.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b93ec.dir/CheckIncludeFile.c.o  -o cmTC_b93ec 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_203a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_203a6.dir/build.make CMakeFiles/cmTC_203a6.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_203a6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_203a6.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_203a6
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_203a6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_203a6.dir/CheckIncludeFile.c.o  -o cmTC_203a6 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ae4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ae4d.dir/build.make CMakeFiles/cmTC_8ae4d.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ae4d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8ae4d.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8ae4d
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ae4d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8ae4d.dir/CheckIncludeFile.c.o  -o cmTC_8ae4d 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1684/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1684.dir/build.make CMakeFiles/cmTC_f1684.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1684.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f1684.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f1684
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1684.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f1684.dir/CheckIncludeFile.c.o  -o cmTC_f1684 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8cf24/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8cf24.dir/build.make CMakeFiles/cmTC_8cf24.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8cf24.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8cf24.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8cf24
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cf24.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8cf24.dir/CheckIncludeFile.c.o  -o cmTC_8cf24 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/sysctl.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95ff8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95ff8.dir/build.make CMakeFiles/cmTC_95ff8.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95ff8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_95ff8.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_95ff8
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95ff8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_95ff8.dir/CheckIncludeFile.c.o  -o cmTC_95ff8 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f907f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f907f.dir/build.make CMakeFiles/cmTC_f907f.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f907f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f907f.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f907f
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f907f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f907f.dir/CheckIncludeFile.c.o  -o cmTC_f907f 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eee86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eee86.dir/build.make CMakeFiles/cmTC_eee86.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eee86.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eee86.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eee86
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eee86.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eee86.dir/CheckIncludeFile.c.o  -o cmTC_eee86 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/un.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f967/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f967.dir/build.make CMakeFiles/cmTC_2f967.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f967.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2f967.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2f967
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f967.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2f967.dir/CheckIncludeFile.c.o  -o cmTC_2f967 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12a94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12a94.dir/build.make CMakeFiles/cmTC_12a94.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12a94.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_12a94.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_12a94
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12a94.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_12a94.dir/CheckIncludeFile.c.o  -o cmTC_12a94 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0152b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0152b.dir/build.make CMakeFiles/cmTC_0152b.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0152b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0152b.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0152b
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0152b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0152b.dir/CheckIncludeFile.c.o  -o cmTC_0152b 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66c38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66c38.dir/build.make CMakeFiles/cmTC_66c38.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66c38.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_66c38.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_66c38
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66c38.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_66c38.dir/CheckIncludeFile.c.o  -o cmTC_66c38 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58e24/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58e24.dir/build.make CMakeFiles/cmTC_58e24.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58e24.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_58e24.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_58e24
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58e24.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_58e24.dir/CheckIncludeFile.c.o  -o cmTC_58e24 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function chown exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9dec0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9dec0.dir/build.make CMakeFiles/cmTC_9dec0.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9dec0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=chown   -o CMakeFiles/cmTC_9dec0.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9dec0
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dec0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=chown    -rdynamic CMakeFiles/cmTC_9dec0.dir/CheckFunctionExists.c.o  -o cmTC_9dec0 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function chroot exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11fd9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11fd9.dir/build.make CMakeFiles/cmTC_11fd9.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11fd9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=chroot   -o CMakeFiles/cmTC_11fd9.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11fd9
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11fd9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=chroot    -rdynamic CMakeFiles/cmTC_11fd9.dir/CheckFunctionExists.c.o  -o cmTC_11fd9 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ctime_r exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0df67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0df67.dir/build.make CMakeFiles/cmTC_0df67.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0df67.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ctime_r   -o CMakeFiles/cmTC_0df67.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0df67
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0df67.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ctime_r    -rdynamic CMakeFiles/cmTC_0df67.dir/CheckFunctionExists.c.o  -o cmTC_0df67 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function daemon exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d445d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d445d.dir/build.make CMakeFiles/cmTC_d445d.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d445d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=daemon   -o CMakeFiles/cmTC_d445d.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d445d
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d445d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=daemon    -rdynamic CMakeFiles/cmTC_d445d.dir/CheckFunctionExists.c.o  -o cmTC_d445d 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function endprotoent exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04bd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04bd8.dir/build.make CMakeFiles/cmTC_04bd8.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04bd8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=endprotoent   -o CMakeFiles/cmTC_04bd8.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_04bd8
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04bd8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=endprotoent    -rdynamic CMakeFiles/cmTC_04bd8.dir/CheckFunctionExists.c.o  -o cmTC_04bd8 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function endservent exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fba04/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fba04.dir/build.make CMakeFiles/cmTC_fba04.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fba04.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=endservent   -o CMakeFiles/cmTC_fba04.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fba04
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fba04.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=endservent    -rdynamic CMakeFiles/cmTC_fba04.dir/CheckFunctionExists.c.o  -o cmTC_fba04 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e135/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e135.dir/build.make CMakeFiles/cmTC_1e135.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e135.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fork   -o CMakeFiles/cmTC_1e135.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fork’
+/home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_1e135
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e135.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fork    -rdynamic CMakeFiles/cmTC_1e135.dir/CheckFunctionExists.c.o  -o cmTC_1e135 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3b5f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3b5f.dir/build.make CMakeFiles/cmTC_e3b5f.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3b5f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_e3b5f.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e3b5f
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3b5f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko    -rdynamic CMakeFiles/cmTC_e3b5f.dir/CheckFunctionExists.c.o  -o cmTC_e3b5f 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fsync exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aaa96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aaa96.dir/build.make CMakeFiles/cmTC_aaa96.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aaa96.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fsync   -o CMakeFiles/cmTC_aaa96.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aaa96
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaa96.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fsync    -rdynamic CMakeFiles/cmTC_aaa96.dir/CheckFunctionExists.c.o  -o cmTC_aaa96 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getauxval exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ebebf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ebebf.dir/build.make CMakeFiles/cmTC_ebebf.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebebf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getauxval   -o CMakeFiles/cmTC_ebebf.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ebebf
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebebf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getauxval    -rdynamic CMakeFiles/cmTC_ebebf.dir/CheckFunctionExists.c.o  -o cmTC_ebebf 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getpwnam exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1185/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1185.dir/build.make CMakeFiles/cmTC_f1185.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1185.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpwnam   -o CMakeFiles/cmTC_f1185.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f1185
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1185.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getpwnam    -rdynamic CMakeFiles/cmTC_f1185.dir/CheckFunctionExists.c.o  -o cmTC_f1185 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getrlimit exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78f33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78f33.dir/build.make CMakeFiles/cmTC_78f33.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78f33.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getrlimit   -o CMakeFiles/cmTC_78f33.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_78f33
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78f33.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getrlimit    -rdynamic CMakeFiles/cmTC_78f33.dir/CheckFunctionExists.c.o  -o cmTC_78f33 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glob exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f0d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f0d0.dir/build.make CMakeFiles/cmTC_6f0d0.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f0d0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glob   -o CMakeFiles/cmTC_6f0d0.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6f0d0
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f0d0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=glob    -rdynamic CMakeFiles/cmTC_6f0d0.dir/CheckFunctionExists.c.o  -o cmTC_6f0d0 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gmtime_r exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3daf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3daf.dir/build.make CMakeFiles/cmTC_b3daf.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3daf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gmtime_r   -o CMakeFiles/cmTC_b3daf.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b3daf
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3daf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gmtime_r    -rdynamic CMakeFiles/cmTC_b3daf.dir/CheckFunctionExists.c.o  -o cmTC_b3daf 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04016/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04016.dir/build.make CMakeFiles/cmTC_04016.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04016.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTC_04016.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_04016
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04016.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl    -rdynamic CMakeFiles/cmTC_04016.dir/CheckFunctionExists.c.o  -o cmTC_04016 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_aton exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f1b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f1b8.dir/build.make CMakeFiles/cmTC_2f1b8.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f1b8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_aton   -o CMakeFiles/cmTC_2f1b8.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2f1b8
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f1b8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=inet_aton    -rdynamic CMakeFiles/cmTC_2f1b8.dir/CheckFunctionExists.c.o  -o cmTC_2f1b8 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_ntop exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e36b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e36b8.dir/build.make CMakeFiles/cmTC_e36b8.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e36b8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_ntop   -o CMakeFiles/cmTC_e36b8.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e36b8
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e36b8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=inet_ntop    -rdynamic CMakeFiles/cmTC_e36b8.dir/CheckFunctionExists.c.o  -o cmTC_e36b8 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fdfd3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fdfd3.dir/build.make CMakeFiles/cmTC_fdfd3.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fdfd3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_pton   -o CMakeFiles/cmTC_fdfd3.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fdfd3
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdfd3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=inet_pton    -rdynamic CMakeFiles/cmTC_fdfd3.dir/CheckFunctionExists.c.o  -o cmTC_fdfd3 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function initgroups exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24a32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24a32.dir/build.make CMakeFiles/cmTC_24a32.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24a32.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=initgroups   -o CMakeFiles/cmTC_24a32.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_24a32
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24a32.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=initgroups    -rdynamic CMakeFiles/cmTC_24a32.dir/CheckFunctionExists.c.o  -o cmTC_24a32 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function isblank exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_160de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_160de.dir/build.make CMakeFiles/cmTC_160de.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_160de.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=isblank   -o CMakeFiles/cmTC_160de.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘isblank’
+/home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_160de
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_160de.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=isblank    -rdynamic CMakeFiles/cmTC_160de.dir/CheckFunctionExists.c.o  -o cmTC_160de 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function kill exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10ae4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10ae4.dir/build.make CMakeFiles/cmTC_10ae4.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10ae4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=kill   -o CMakeFiles/cmTC_10ae4.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_10ae4
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10ae4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=kill    -rdynamic CMakeFiles/cmTC_10ae4.dir/CheckFunctionExists.c.o  -o cmTC_10ae4 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function localtime_r exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0c48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0c48.dir/build.make CMakeFiles/cmTC_a0c48.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0c48.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localtime_r   -o CMakeFiles/cmTC_a0c48.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a0c48
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0c48.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=localtime_r    -rdynamic CMakeFiles/cmTC_a0c48.dir/CheckFunctionExists.c.o  -o cmTC_a0c48 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfb54/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfb54.dir/build.make CMakeFiles/cmTC_dfb54.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfb54.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTC_dfb54.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’
+/home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_dfb54
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfb54.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc    -rdynamic CMakeFiles/cmTC_dfb54.dir/CheckFunctionExists.c.o  -o cmTC_dfb54 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1db2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1db2.dir/build.make CMakeFiles/cmTC_f1db2.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1db2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTC_f1db2.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memmove’
+/home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_f1db2
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1db2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memmove    -rdynamic CMakeFiles/cmTC_f1db2.dir/CheckFunctionExists.c.o  -o cmTC_f1db2 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function random exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e5d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e5d1.dir/build.make CMakeFiles/cmTC_6e5d1.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e5d1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=random   -o CMakeFiles/cmTC_6e5d1.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6e5d1
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e5d1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=random    -rdynamic CMakeFiles/cmTC_6e5d1.dir/CheckFunctionExists.c.o  -o cmTC_6e5d1 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function recvmsg exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2637/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2637.dir/build.make CMakeFiles/cmTC_f2637.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2637.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=recvmsg   -o CMakeFiles/cmTC_f2637.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2637
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2637.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=recvmsg    -rdynamic CMakeFiles/cmTC_f2637.dir/CheckFunctionExists.c.o  -o cmTC_f2637 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sbrk exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef504/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef504.dir/build.make CMakeFiles/cmTC_ef504.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef504.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sbrk   -o CMakeFiles/cmTC_ef504.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef504
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef504.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sbrk    -rdynamic CMakeFiles/cmTC_ef504.dir/CheckFunctionExists.c.o  -o cmTC_ef504 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sendmsg exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa5f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa5f9.dir/build.make CMakeFiles/cmTC_aa5f9.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa5f9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sendmsg   -o CMakeFiles/cmTC_aa5f9.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aa5f9
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa5f9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sendmsg    -rdynamic CMakeFiles/cmTC_aa5f9.dir/CheckFunctionExists.c.o  -o cmTC_aa5f9 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setregid exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e29f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e29f8.dir/build.make CMakeFiles/cmTC_e29f8.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e29f8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setregid   -o CMakeFiles/cmTC_e29f8.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e29f8
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e29f8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setregid    -rdynamic CMakeFiles/cmTC_e29f8.dir/CheckFunctionExists.c.o  -o cmTC_e29f8 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setresgid exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c403/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c403.dir/build.make CMakeFiles/cmTC_6c403.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c403.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setresgid   -o CMakeFiles/cmTC_6c403.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6c403
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c403.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setresgid    -rdynamic CMakeFiles/cmTC_6c403.dir/CheckFunctionExists.c.o  -o cmTC_6c403 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setresuid exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55f0f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55f0f.dir/build.make CMakeFiles/cmTC_55f0f.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55f0f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setresuid   -o CMakeFiles/cmTC_55f0f.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_55f0f
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55f0f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setresuid    -rdynamic CMakeFiles/cmTC_55f0f.dir/CheckFunctionExists.c.o  -o cmTC_55f0f 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setreuid exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5400a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5400a.dir/build.make CMakeFiles/cmTC_5400a.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5400a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setreuid   -o CMakeFiles/cmTC_5400a.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5400a
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5400a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setreuid    -rdynamic CMakeFiles/cmTC_5400a.dir/CheckFunctionExists.c.o  -o cmTC_5400a 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setrlimit exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e38f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e38f6.dir/build.make CMakeFiles/cmTC_e38f6.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e38f6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setrlimit   -o CMakeFiles/cmTC_e38f6.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e38f6
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e38f6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setrlimit    -rdynamic CMakeFiles/cmTC_e38f6.dir/CheckFunctionExists.c.o  -o cmTC_e38f6 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setsid exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8000/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8000.dir/build.make CMakeFiles/cmTC_a8000.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8000.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setsid   -o CMakeFiles/cmTC_a8000.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a8000
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8000.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setsid    -rdynamic CMakeFiles/cmTC_a8000.dir/CheckFunctionExists.c.o  -o cmTC_a8000 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigprocmask exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7dac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7dac.dir/build.make CMakeFiles/cmTC_f7dac.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7dac.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigprocmask   -o CMakeFiles/cmTC_f7dac.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f7dac
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7dac.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigprocmask    -rdynamic CMakeFiles/cmTC_f7dac.dir/CheckFunctionExists.c.o  -o cmTC_f7dac 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sleep exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7abeb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7abeb.dir/build.make CMakeFiles/cmTC_7abeb.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7abeb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sleep   -o CMakeFiles/cmTC_7abeb.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7abeb
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7abeb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sleep    -rdynamic CMakeFiles/cmTC_7abeb.dir/CheckFunctionExists.c.o  -o cmTC_7abeb 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91bfd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91bfd.dir/build.make CMakeFiles/cmTC_91bfd.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91bfd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTC_91bfd.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘snprintf’
+/home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_91bfd
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91bfd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snprintf    -rdynamic CMakeFiles/cmTC_91bfd.dir/CheckFunctionExists.c.o  -o cmTC_91bfd 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function socketpair exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb860/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb860.dir/build.make CMakeFiles/cmTC_eb860.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb860.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=socketpair   -o CMakeFiles/cmTC_eb860.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eb860
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb860.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=socketpair    -rdynamic CMakeFiles/cmTC_eb860.dir/CheckFunctionExists.c.o  -o cmTC_eb860 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function srandom exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9558e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9558e.dir/build.make CMakeFiles/cmTC_9558e.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9558e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=srandom   -o CMakeFiles/cmTC_9558e.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9558e
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9558e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=srandom    -rdynamic CMakeFiles/cmTC_9558e.dir/CheckFunctionExists.c.o  -o cmTC_9558e 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strsep exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9582/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9582.dir/build.make CMakeFiles/cmTC_f9582.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9582.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsep   -o CMakeFiles/cmTC_f9582.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f9582
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9582.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strsep    -rdynamic CMakeFiles/cmTC_f9582.dir/CheckFunctionExists.c.o  -o cmTC_f9582 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strftime exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e02a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e02a9.dir/build.make CMakeFiles/cmTC_e02a9.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e02a9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strftime   -o CMakeFiles/cmTC_e02a9.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strftime’
+/home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_e02a9
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e02a9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strftime    -rdynamic CMakeFiles/cmTC_e02a9.dir/CheckFunctionExists.c.o  -o cmTC_e02a9 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strptime exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6191/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6191.dir/build.make CMakeFiles/cmTC_c6191.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6191.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strptime   -o CMakeFiles/cmTC_c6191.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6191
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6191.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strptime    -rdynamic CMakeFiles/cmTC_c6191.dir/CheckFunctionExists.c.o  -o cmTC_c6191 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function tzset exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_180fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_180fe.dir/build.make CMakeFiles/cmTC_180fe.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_180fe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tzset   -o CMakeFiles/cmTC_180fe.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_180fe
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_180fe.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=tzset    -rdynamic CMakeFiles/cmTC_180fe.dir/CheckFunctionExists.c.o  -o cmTC_180fe 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function usleep exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_745f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_745f0.dir/build.make CMakeFiles/cmTC_745f0.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_745f0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=usleep   -o CMakeFiles/cmTC_745f0.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_745f0
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_745f0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=usleep    -rdynamic CMakeFiles/cmTC_745f0.dir/CheckFunctionExists.c.o  -o cmTC_745f0 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function writev exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e21c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e21c.dir/build.make CMakeFiles/cmTC_4e21c.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e21c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=writev   -o CMakeFiles/cmTC_4e21c.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4e21c
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e21c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=writev    -rdynamic CMakeFiles/cmTC_4e21c.dir/CheckFunctionExists.c.o  -o cmTC_4e21c 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_050d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_050d3.dir/build.make CMakeFiles/cmTC_050d3.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_050d3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_050d3.dir/CheckSymbolExists.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_050d3
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_050d3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_050d3.dir/CheckSymbolExists.c.o  -o cmTC_050d3 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+File /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <netdb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_42898/fast"
+/usr/bin/make -f CMakeFiles/cmTC_42898.dir/build.make CMakeFiles/cmTC_42898.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42898.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_42898.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_42898
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42898.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_42898.dir/CheckIncludeFile.c.o  -o cmTC_42898 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39795/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39795.dir/build.make CMakeFiles/cmTC_39795.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39795.dir/SIZEOF_TIME_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_39795.dir/SIZEOF_TIME_T.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/SIZEOF_TIME_T.c
+Linking C executable cmTC_39795
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39795.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_39795.dir/SIZEOF_TIME_T.c.o  -o cmTC_39795 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of gid_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d93d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d93d3.dir/build.make CMakeFiles/cmTC_d93d3.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d93d3.dir/gid_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d93d3.dir/gid_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/gid_t.c
+Linking C executable cmTC_d93d3
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d93d3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d93d3.dir/gid_t.c.o  -o cmTC_d93d3 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of in_addr_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b4f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b4f3.dir/build.make CMakeFiles/cmTC_5b4f3.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b4f3.dir/in_addr_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5b4f3.dir/in_addr_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/in_addr_t.c
+Linking C executable cmTC_5b4f3
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b4f3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5b4f3.dir/in_addr_t.c.o  -o cmTC_5b4f3 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of in_port_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a87b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a87b.dir/build.make CMakeFiles/cmTC_7a87b.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a87b.dir/in_port_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7a87b.dir/in_port_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/in_port_t.c
+Linking C executable cmTC_7a87b
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a87b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7a87b.dir/in_port_t.c.o  -o cmTC_7a87b 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_974fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_974fe.dir/build.make CMakeFiles/cmTC_974fe.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_974fe.dir/int16_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_974fe.dir/int16_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/int16_t.c
+Linking C executable cmTC_974fe
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_974fe.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_974fe.dir/int16_t.c.o  -o cmTC_974fe 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28fb2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28fb2.dir/build.make CMakeFiles/cmTC_28fb2.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28fb2.dir/int32_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_28fb2.dir/int32_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/int32_t.c
+Linking C executable cmTC_28fb2
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28fb2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_28fb2.dir/int32_t.c.o  -o cmTC_28fb2 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1fb4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1fb4.dir/build.make CMakeFiles/cmTC_c1fb4.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1fb4.dir/int64_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c1fb4.dir/int64_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/int64_t.c
+Linking C executable cmTC_c1fb4
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1fb4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c1fb4.dir/int64_t.c.o  -o cmTC_c1fb4 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bef4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bef4a.dir/build.make CMakeFiles/cmTC_bef4a.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bef4a.dir/int8_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bef4a.dir/int8_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/int8_t.c
+Linking C executable cmTC_bef4a
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bef4a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bef4a.dir/int8_t.c.o  -o cmTC_bef4a 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of pid_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0253/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0253.dir/build.make CMakeFiles/cmTC_e0253.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0253.dir/pid_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e0253.dir/pid_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/pid_t.c
+Linking C executable cmTC_e0253
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0253.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e0253.dir/pid_t.c.o  -o cmTC_e0253 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of rlim_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ded8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ded8.dir/build.make CMakeFiles/cmTC_8ded8.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ded8.dir/rlim_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8ded8.dir/rlim_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/rlim_t.c
+Linking C executable cmTC_8ded8
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ded8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8ded8.dir/rlim_t.c.o  -o cmTC_8ded8 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db566/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db566.dir/build.make CMakeFiles/cmTC_db566.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db566.dir/ssize_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_db566.dir/ssize_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/ssize_t.c
+Linking C executable cmTC_db566
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db566.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_db566.dir/ssize_t.c.o  -o cmTC_db566 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of uid_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58d30/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58d30.dir/build.make CMakeFiles/cmTC_58d30.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58d30.dir/uid_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_58d30.dir/uid_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/uid_t.c
+Linking C executable cmTC_58d30
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58d30.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_58d30.dir/uid_t.c.o  -o cmTC_58d30 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5941e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5941e.dir/build.make CMakeFiles/cmTC_5941e.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5941e.dir/uint16_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5941e.dir/uint16_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/uint16_t.c
+Linking C executable cmTC_5941e
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5941e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5941e.dir/uint16_t.c.o  -o cmTC_5941e 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54701/fast"
+/usr/bin/make -f CMakeFiles/cmTC_54701.dir/build.make CMakeFiles/cmTC_54701.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54701.dir/uint32_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_54701.dir/uint32_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/uint32_t.c
+Linking C executable cmTC_54701
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54701.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_54701.dir/uint32_t.c.o  -o cmTC_54701 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff4e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff4e7.dir/build.make CMakeFiles/cmTC_ff4e7.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff4e7.dir/uint64_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ff4e7.dir/uint64_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/uint64_t.c
+Linking C executable cmTC_ff4e7
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff4e7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ff4e7.dir/uint64_t.c.o  -o cmTC_ff4e7 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_336af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_336af.dir/build.make CMakeFiles/cmTC_336af.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_336af.dir/uint8_t.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_336af.dir/uint8_t.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CheckTypeSize/uint8_t.c
+Linking C executable cmTC_336af
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_336af.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_336af.dir/uint8_t.c.o  -o cmTC_336af 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file openssl/conf.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa9a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa9a5.dir/build.make CMakeFiles/cmTC_fa9a5.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa9a5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fa9a5.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fa9a5
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa9a5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fa9a5.dir/CheckIncludeFile.c.o  -o cmTC_fa9a5 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file openssl/engine.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69da9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69da9.dir/build.make CMakeFiles/cmTC_69da9.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69da9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_69da9.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_69da9
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69da9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_69da9.dir/CheckIncludeFile.c.o  -o cmTC_69da9 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file openssl/err.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dda64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dda64.dir/build.make CMakeFiles/cmTC_dda64.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dda64.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dda64.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dda64
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dda64.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dda64.dir/CheckIncludeFile.c.o  -o cmTC_dda64 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file openssl/rand.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00a3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00a3d.dir/build.make CMakeFiles/cmTC_00a3d.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00a3d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_00a3d.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_00a3d
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00a3d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_00a3d.dir/CheckIncludeFile.c.o  -o cmTC_00a3d 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file openssl/ssl.h exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f428/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f428.dir/build.make CMakeFiles/cmTC_6f428.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f428.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6f428.dir/CheckIncludeFile.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6f428
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f428.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6f428.dir/CheckIncludeFile.c.o  -o cmTC_6f428 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the NID_secp384r1 exist passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0df3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0df3.dir/build.make CMakeFiles/cmTC_d0df3.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0df3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d0df3.dir/CheckSymbolExists.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d0df3
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0df3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d0df3.dir/CheckSymbolExists.c.o  -o cmTC_d0df3 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+File /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <openssl/evp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef NID_secp384r1
+  return ((int*)(&NID_secp384r1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the NID_X9_62_prime256v1 exist passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41aab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41aab.dir/build.make CMakeFiles/cmTC_41aab.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41aab.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_41aab.dir/CheckSymbolExists.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_41aab
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41aab.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_41aab.dir/CheckSymbolExists.c.o  -o cmTC_41aab /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+File /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <openssl/evp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef NID_X9_62_prime256v1
+  return ((int*)(&NID_X9_62_prime256v1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sk_SSL_COMP_pop_free exist passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a250e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a250e.dir/build.make CMakeFiles/cmTC_a250e.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a250e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a250e.dir/CheckSymbolExists.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a250e
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a250e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a250e.dir/CheckSymbolExists.c.o  -o cmTC_a250e /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+File /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <openssl/ssl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sk_SSL_COMP_pop_free
+  return ((int*)(&sk_SSL_COMP_pop_free))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SSL_COMP_get_compression_methods exist passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da044/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da044.dir/build.make CMakeFiles/cmTC_da044.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da044.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_da044.dir/CheckSymbolExists.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_da044
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da044.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_da044.dir/CheckSymbolExists.c.o  -o cmTC_da044 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+File /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <openssl/ssl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SSL_COMP_get_compression_methods
+  return ((int*)(&SSL_COMP_get_compression_methods))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function EVP_sha1 exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_932ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_932ed.dir/build.make CMakeFiles/cmTC_932ed.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_932ed.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=EVP_sha1   -o CMakeFiles/cmTC_932ed.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_932ed
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_932ed.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=EVP_sha1    -rdynamic CMakeFiles/cmTC_932ed.dir/CheckFunctionExists.c.o  -o cmTC_932ed /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function EVP_sha256 exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67dad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67dad.dir/build.make CMakeFiles/cmTC_67dad.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67dad.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=EVP_sha256   -o CMakeFiles/cmTC_67dad.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67dad
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67dad.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=EVP_sha256    -rdynamic CMakeFiles/cmTC_67dad.dir/CheckFunctionExists.c.o  -o cmTC_67dad /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function EVP_sha512 exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b011/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b011.dir/build.make CMakeFiles/cmTC_1b011.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b011.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=EVP_sha512   -o CMakeFiles/cmTC_1b011.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1b011
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b011.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=EVP_sha512    -rdynamic CMakeFiles/cmTC_1b011.dir/CheckFunctionExists.c.o  -o cmTC_1b011 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function FIPS_mode exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_179b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_179b5.dir/build.make CMakeFiles/cmTC_179b5.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_179b5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=FIPS_mode   -o CMakeFiles/cmTC_179b5.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_179b5
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_179b5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=FIPS_mode    -rdynamic CMakeFiles/cmTC_179b5.dir/CheckFunctionExists.c.o  -o cmTC_179b5 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function HMAC_Update exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b4e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b4e1.dir/build.make CMakeFiles/cmTC_5b4e1.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b4e1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=HMAC_Update   -o CMakeFiles/cmTC_5b4e1.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5b4e1
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b4e1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=HMAC_Update    -rdynamic CMakeFiles/cmTC_5b4e1.dir/CheckFunctionExists.c.o  -o cmTC_5b4e1 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function OPENSSL_config exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aadb5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aadb5.dir/build.make CMakeFiles/cmTC_aadb5.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aadb5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=OPENSSL_config   -o CMakeFiles/cmTC_aadb5.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aadb5
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aadb5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=OPENSSL_config    -rdynamic CMakeFiles/cmTC_aadb5.dir/CheckFunctionExists.c.o  -o cmTC_aadb5 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function SHA512_Update exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5f1d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5f1d.dir/build.make CMakeFiles/cmTC_c5f1d.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5f1d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=SHA512_Update   -o CMakeFiles/cmTC_c5f1d.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c5f1d
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5f1d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=SHA512_Update    -rdynamic CMakeFiles/cmTC_c5f1d.dir/CheckFunctionExists.c.o  -o cmTC_c5f1d /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test _Wformat_c succeeded with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4bd45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4bd45.dir/build.make CMakeFiles/cmTC_4bd45.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bd45.dir/src.c.o
+/usr/bin/cc   -fno-strict-aliasing -D_Wformat_c   -Wformat -o CMakeFiles/cmTC_4bd45.dir/src.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4bd45
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bd45.dir/link.txt --verbose=1
+/usr/bin/cc  -fno-strict-aliasing -D_Wformat_c    -rdynamic CMakeFiles/cmTC_4bd45.dir/src.c.o  -o cmTC_4bd45 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Wformat_cxx succeeded with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0af2c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0af2c.dir/build.make CMakeFiles/cmTC_0af2c.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0af2c.dir/src.cxx.o
+/usr/bin/c++    -fno-strict-aliasing -D_Wformat_cxx   -Wformat -o CMakeFiles/cmTC_0af2c.dir/src.cxx.o -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0af2c
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0af2c.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-strict-aliasing -D_Wformat_cxx    -rdynamic CMakeFiles/cmTC_0af2c.dir/src.cxx.o  -o cmTC_0af2c 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _Wformat_security_c succeeded with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ead5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ead5.dir/build.make CMakeFiles/cmTC_4ead5.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ead5.dir/src.c.o
+/usr/bin/cc   -fno-strict-aliasing -D_Wformat_security_c   -Wformat-security -o CMakeFiles/cmTC_4ead5.dir/src.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4ead5
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ead5.dir/link.txt --verbose=1
+/usr/bin/cc  -fno-strict-aliasing -D_Wformat_security_c    -rdynamic CMakeFiles/cmTC_4ead5.dir/src.c.o  -o cmTC_4ead5 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Wformat_security_cxx succeeded with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39e8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39e8d.dir/build.make CMakeFiles/cmTC_39e8d.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39e8d.dir/src.cxx.o
+/usr/bin/c++    -fno-strict-aliasing -D_Wformat_security_cxx   -Wformat-security -o CMakeFiles/cmTC_39e8d.dir/src.cxx.o -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_39e8d
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39e8d.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-strict-aliasing -D_Wformat_security_cxx    -rdynamic CMakeFiles/cmTC_39e8d.dir/src.cxx.o  -o cmTC_39e8d 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _fstack_protector_c succeeded with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb862/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb862.dir/build.make CMakeFiles/cmTC_eb862.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb862.dir/src.c.o
+/usr/bin/cc   -fno-strict-aliasing -D_fstack_protector_c   -fstack-protector -o CMakeFiles/cmTC_eb862.dir/src.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_eb862
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb862.dir/link.txt --verbose=1
+/usr/bin/cc  -fno-strict-aliasing -D_fstack_protector_c    -rdynamic CMakeFiles/cmTC_eb862.dir/src.c.o  -o cmTC_eb862 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fstack_protector_cxx succeeded with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b36b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b36b3.dir/build.make CMakeFiles/cmTC_b36b3.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b36b3.dir/src.cxx.o
+/usr/bin/c++    -fno-strict-aliasing -D_fstack_protector_cxx   -fstack-protector -o CMakeFiles/cmTC_b36b3.dir/src.cxx.o -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b36b3
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b36b3.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-strict-aliasing -D_fstack_protector_cxx    -rdynamic CMakeFiles/cmTC_b36b3.dir/src.cxx.o  -o cmTC_b36b3 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _fstack_protector_strong_c succeeded with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff08f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff08f.dir/build.make CMakeFiles/cmTC_ff08f.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff08f.dir/src.c.o
+/usr/bin/cc   -fno-strict-aliasing -D_fstack_protector_strong_c   -fstack-protector-strong -o CMakeFiles/cmTC_ff08f.dir/src.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ff08f
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff08f.dir/link.txt --verbose=1
+/usr/bin/cc  -fno-strict-aliasing -D_fstack_protector_strong_c    -rdynamic CMakeFiles/cmTC_ff08f.dir/src.c.o  -o cmTC_ff08f 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fstack_protector_strong_cxx succeeded with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_594fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_594fb.dir/build.make CMakeFiles/cmTC_594fb.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_594fb.dir/src.cxx.o
+/usr/bin/c++    -fno-strict-aliasing -D_fstack_protector_strong_cxx   -fstack-protector-strong -o CMakeFiles/cmTC_594fb.dir/src.cxx.o -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_594fb
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_594fb.dir/link.txt --verbose=1
+/usr/bin/c++   -fno-strict-aliasing -D_fstack_protector_strong_cxx    -rdynamic CMakeFiles/cmTC_594fb.dir/src.cxx.o  -o cmTC_594fb 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the -pie linker flag is supported passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_acb2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_acb2b.dir/build.make CMakeFiles/cmTC_acb2b.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_acb2b.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -pie    -pie -o CMakeFiles/cmTC_acb2b.dir/CheckLinkerFlag.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_acb2b
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acb2b.dir/link.txt --verbose=1
+/usr/bin/cc -pie     -rdynamic CMakeFiles/cmTC_acb2b.dir/CheckLinkerFlag.c.o  -o cmTC_acb2b 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the -Wl,-z,relro linker flag is supported passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbb3a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbb3a.dir/build.make CMakeFiles/cmTC_fbb3a.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbb3a.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,-z,relro    -Wl,-z,relro -o CMakeFiles/cmTC_fbb3a.dir/CheckLinkerFlag.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_fbb3a
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbb3a.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,-z,relro     -rdynamic CMakeFiles/cmTC_fbb3a.dir/CheckLinkerFlag.c.o  -o cmTC_fbb3a 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the -Wl,-z,now linker flag is supported passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9f1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9f1f.dir/build.make CMakeFiles/cmTC_b9f1f.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9f1f.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,-z,now    -Wl,-z,now -o CMakeFiles/cmTC_b9f1f.dir/CheckLinkerFlag.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_b9f1f
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9f1f.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,-z,now     -rdynamic CMakeFiles/cmTC_b9f1f.dir/CheckLinkerFlag.c.o  -o cmTC_b9f1f 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the -Wl,-z,noexecstack linker flag is supported passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35c7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35c7f.dir/build.make CMakeFiles/cmTC_35c7f.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35c7f.dir/CheckLinkerFlag.c.o
+/usr/bin/cc   -Wl,-z,noexecstack    -Wl,-z,noexecstack -o CMakeFiles/cmTC_35c7f.dir/CheckLinkerFlag.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CheckLinkerFlag.c
+Linking C executable cmTC_35c7f
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35c7f.dir/link.txt --verbose=1
+/usr/bin/cc -Wl,-z,noexecstack     -rdynamic CMakeFiles/cmTC_35c7f.dir/CheckLinkerFlag.c.o  -o cmTC_35c7f 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_C11 succeeded with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_398ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_398ce.dir/build.make CMakeFiles/cmTC_398ce.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_398ce.dir/src.c.o
+/usr/bin/cc   -fno-strict-aliasing -maes -std=c11 -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=cpp -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native  -fPIC  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fno-strict-aliasing -DHAVE_C11   -std=c11 -o CMakeFiles/cmTC_398ce.dir/src.c.o   -c /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_398ce
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_398ce.dir/link.txt --verbose=1
+/usr/bin/cc  -fno-strict-aliasing -maes -std=c11 -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=cpp -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native  -fPIC  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fno-strict-aliasing -DHAVE_C11    -rdynamic CMakeFiles/cmTC_398ce.dir/src.c.o  -o cmTC_398ce 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function rl_copy_text exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f96a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f96a.dir/build.make CMakeFiles/cmTC_6f96a.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f96a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fno-strict-aliasing -maes -std=c11 -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=cpp -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native  -fPIC  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=rl_copy_text   -o CMakeFiles/cmTC_6f96a.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6f96a
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f96a.dir/link.txt --verbose=1
+/usr/bin/cc  -fno-strict-aliasing -maes -std=c11 -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=cpp -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native  -fPIC  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=rl_copy_text    -rdynamic CMakeFiles/cmTC_6f96a.dir/CheckFunctionExists.c.o  -o cmTC_6f96a /usr/lib/x86_64-linux-gnu/libreadline.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function rl_filename_completion_function exists passed with the following output:
+Change Dir: /home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fbf0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6fbf0.dir/build.make CMakeFiles/cmTC_6fbf0.dir/build
+make[1]: Entering directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6fbf0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fno-strict-aliasing -maes -std=c11 -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=cpp -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native  -fPIC  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=rl_filename_completion_function   -o CMakeFiles/cmTC_6fbf0.dir/CheckFunctionExists.c.o   -c /home/warproxxx/Downloads/cmake-3.12.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6fbf0
+/home/warproxxx/Downloads/cmake-3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fbf0.dir/link.txt --verbose=1
+/usr/bin/cc  -fno-strict-aliasing -maes -std=c11 -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=cpp -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native  -fPIC  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=rl_filename_completion_function    -rdynamic CMakeFiles/cmTC_6fbf0.dir/CheckFunctionExists.c.o  -o cmTC_6fbf0 /usr/lib/x86_64-linux-gnu/libreadline.so 
+make[1]: Leaving directory '/home/warproxxx/Desktop/Projects/StorageX/Monero/StorageX-miner/cmake/CMakeFiles/CMakeTmp'
+
+

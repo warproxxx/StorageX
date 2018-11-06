@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcryptonote_basic.a  CMakeFiles/obj_cryptonote_basic.dir/difficulty.cpp.o
+/usr/bin/ranlib libcryptonote_basic.a
